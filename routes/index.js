@@ -18,8 +18,7 @@ admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
 });
 
-const ID = 'AKIAJJSFAQITSDW2PAYA';
-const SECRET = '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';
+//AWS Credentials here
 
 const s3 = new AWS.S3({
     accessKeyId: ID,
